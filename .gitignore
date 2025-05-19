@@ -1,0 +1,89 @@
+# Python-specific ignores
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.eggs/
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# VSCode-specific files
+.vscode/
+*.code-workspace
+
+# PyCharm-specific files
+.idea/
+*.iml
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+
+# Byte-compiled C extensions
+*.so
+
+# Environment variables
+.env
+.env.*
+
+# FastAPI-specific ignores
+*.sqlite3
+*.db
+*.pid
+*.cache/
+*.session
+
+# Test-related ignores
+.tox/
+.nox/
+.coverage
+*.coverage
+htmlcov/
+pytest_cache/
+.cache
+
+# Docker ignores (if using Docker)
+docker-compose.override.yml
+*.dockerignore
+.docker/
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Build/packaging files
+build/
+dist/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook (if using)
+.ipynb_checkpoints/
+
+# IDE temporary files
+*.swp
+*~
